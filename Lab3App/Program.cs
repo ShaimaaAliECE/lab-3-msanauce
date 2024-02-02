@@ -30,7 +30,7 @@ namespace Lab3App
 
             // One MagicWand
             possibleCollectiable.Add(new MagicWand("OnlyMagicWand"));
-
+         
             // Associate the CollectionBoard object to all the possible Collectiables
             // using a foreach loop
             foreach (Collectable collectable in  possibleCollectiable)
